@@ -54,7 +54,7 @@ function App() {
           </Tabs.Root>
         ) : (
           <Flex justify="center" py="8">
-            <Box textAlign="center">
+            <Box style={{ textAlign: "center" }}>
               <Heading mb="2">请连接钱包</Heading>
               <ConnectButton />
             </Box>
